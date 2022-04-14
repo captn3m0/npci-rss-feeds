@@ -1,0 +1,88 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.2.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    builder (3.2.4)
+    concurrent-ruby (1.1.10)
+    faraday (1.10.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0)
+      faraday-multipart (~> 1.0)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.0)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      faraday-retry (~> 1.0)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-multipart (1.0.3)
+      multipart-post (>= 1.2, < 3)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday-retry (1.0.3)
+    faraday_middleware (1.2.0)
+      faraday (~> 1.0)
+    hanami-router (2.0.0.alpha6)
+      mustermann (~> 1.0)
+      mustermann-contrib (~> 1.0)
+      rack (~> 2.0)
+    hansi (0.2.0)
+    hibana (0.2.0)
+      hanami-router (>= 2.0.0.alpha3)
+      rack
+      tilt
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    marcel (1.0.2)
+    minitest (5.15.0)
+    multipart-post (2.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    mustermann-contrib (1.1.1)
+      hansi (~> 0.2.0)
+      mustermann (= 1.1.1)
+    nokogiri (1.13.4-x86_64-linux)
+      racc (~> 1.4)
+    public_suffix (4.0.7)
+    racc (1.6.0)
+    rack (2.2.3)
+    rack-capture (0.4.0)
+      rack
+    ruby2_keywords (0.0.5)
+    thor (1.2.1)
+    tilt (2.0.10)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    weneedfeed (0.13.0)
+      activesupport
+      addressable
+      builder
+      faraday
+      faraday_middleware
+      hibana (>= 0.2)
+      marcel
+      nokogiri
+      rack-capture (>= 0.4.0)
+      thor
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  weneedfeed
+
+BUNDLED WITH
+   2.3.10
