@@ -51,16 +51,16 @@ pages:
     url: "https://npci.org.in/what-we-do/aeps/circulars"
   - <<: *SELECTOR
     id: bhim-aadhaar
-    title: BHIM Aadhaar Circulars"
+    title: BHIM Aadhaar Circulars
     description: "NPCI BHIM Aadhaar Circulars"
     url: "https://npci.org.in/what-we-do/bhim-aadhaar/circular"
   - <<: *SELECTOR
     id: e-rupi
-    title: e-RUPI Circulars"
+    title: e-RUPI Circulars
     description: "NPCI e-RUPI Circulars"
     url: "https://npci.org.in/what-we-do/e-rupi/circular"
   - <<: *SELECTOR
     id: bbps
-    title: Bharat BillPay Circulars"
+    title: Bharat BillPay Circulars
     description: "NPCI Bharat BillPay (BBPS) Circulars"
     url: "https://npci.org.in/what-we-do/bharat-billpay/circulars"
