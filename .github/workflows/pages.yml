@@ -19,7 +19,7 @@ jobs:
         name: Set current Year
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
+          ruby-version: "3.0"
           bundler-cache: true
       - run: bundle exec weneedfeed build --base-url="https://captnemo.in/npci-rss"
         name: Generate RSS Feeds
