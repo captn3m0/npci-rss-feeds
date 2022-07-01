@@ -1,5 +1,5 @@
 .common_selectors: &selector
-  item_selector: '#year2022 .pdf-item'
+  item_selector: '#year__YEAR__ .pdf-item'
   item_description_selector: p
   item_link_selector: a:nth-child(1)
   item_title_selector: p:nth-child(2)
