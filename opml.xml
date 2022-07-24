@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Weneedfeed</title>
+  </head>
+  <body>
+    <outline text="Weneedfeed" title="Weneedfeed">
+      
+        <outline type="rss" text="*99# Circulars" title="*99# Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/99.xml" htmlUrl="https://npci.org.in/what-we-do/99/circular"/>
+      
+        <outline type="rss" text="AePS Circulars" title="AePS Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/aeps.xml" htmlUrl="https://npci.org.in/what-we-do/aeps/circulars"/>
+      
+        <outline type="rss" text="BHIM Aadhaar Circulars" title="BHIM Aadhaar Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/bhim-aadhaar.xml" htmlUrl="https://npci.org.in/what-we-do/bhim-aadhaar/circular"/>
+      
+        <outline type="rss" text="Bharat BillPay Circulars" title="Bharat BillPay Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/bbps.xml" htmlUrl="https://npci.org.in/what-we-do/bharat-billpay/circulars"/>
+      
+        <outline type="rss" text="CTS Circulars" title="CTS Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/cts.xml" htmlUrl="https://www.npci.org.in/what-we-do/cts/circulars"/>
+      
+        <outline type="rss" text="IMPS Circulars" title="IMPS Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/imps.xml" htmlUrl="https://npci.org.in/what-we-do/imps/circular"/>
+      
+        <outline type="rss" text="NACH Circulars" title="NACH Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/nach.xml" htmlUrl="https://npci.org.in/what-we-do/nach/circulars"/>
+      
+        <outline type="rss" text="NETC FASTag Circulars" title="NETC FASTag Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/netc.xml" htmlUrl="https://npci.org.in/what-we-do/netc-fastag/circulars"/>
+      
+        <outline type="rss" text="NFS Circulars" title="NFS Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/nfs.xml" htmlUrl="https://npci.org.in/what-we-do/nfs/circulars"/>
+      
+        <outline type="rss" text="RuPay Circulars" title="RuPay Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/rupay.xml" htmlUrl="https://npci.org.in/what-we-do/rupay/circulars"/>
+      
+        <outline type="rss" text="UPI Circulars" title="UPI Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/upi.xml" htmlUrl="https://www.npci.org.in/what-we-do/upi/circular"/>
+      
+        <outline type="rss" text="e-RUPI Circulars" title="e-RUPI Circulars" xmlUrl="https://captnemo.in/npci-rss-feeds/feeds/e-rupi.xml" htmlUrl="https://npci.org.in/what-we-do/e-rupi/circular"/>
+      
+    </outline>
+  </body>
+</opml>

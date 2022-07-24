@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[BHIM Aadhaar Circulars]]></title>
+    <link>https://npci.org.in/what-we-do/bhim-aadhaar/circular</link>
+    <atom:link href="https://captnemo.in/npci-rss-feeds/feeds/bhim-aadhaar.xml" rel="self"/>
+    <description><![CDATA[NPCI BHIM Aadhaar Circulars]]></description>
+    <lastBuildDate>Sun, 24 Jul 2022 12:17:20 +0000</lastBuildDate>
+    
+  </channel>
+</rss>
