@@ -1,16 +1,33 @@
+GIT
+  remote: https://github.com/r7kamura/weneedfeed.git
+  revision: 5d10f797ab7ff535db4e78e2e40eff8782cdd2ce
+  specs:
+    weneedfeed (0.19.3)
+      activesupport
+      addressable
+      builder
+      faraday
+      faraday_middleware
+      hibana (>= 0.2.1)
+      marcel
+      nokogiri
+      psych (>= 4)
+      rack-capture (>= 0.4.0)
+      thor
+
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.3)
+    activesupport (7.0.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     builder (3.2.4)
     concurrent-ruby (1.1.10)
-    faraday (1.10.0)
+    faraday (1.10.2)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -35,30 +52,32 @@ GEM
     faraday-retry (1.0.3)
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
-    hanami-router (2.0.0.alpha6)
+    hanami-router (2.0.0.alpha3)
       mustermann (~> 1.0)
       mustermann-contrib (~> 1.0)
       rack (~> 2.0)
     hansi (0.2.1)
-    hibana (0.2.0)
-      hanami-router (>= 2.0.0.alpha3)
+    hibana (0.2.1)
+      hanami-router (= 2.0.0.alpha3)
       rack
       tilt
-    i18n (1.10.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     marcel (1.0.2)
-    minitest (5.16.1)
+    minitest (5.16.3)
     multipart-post (2.2.3)
-    mustermann (1.1.1)
+    mustermann (1.1.2)
       ruby2_keywords (~> 0.0.1)
-    mustermann-contrib (1.1.1)
+    mustermann-contrib (1.1.2)
       hansi (~> 0.2.0)
-      mustermann (= 1.1.1)
+      mustermann (= 1.1.2)
+    nokogiri (1.13.9-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
-    psych (4.0.4)
+    psych (4.0.6)
       stringio
-    public_suffix (4.0.7)
+    public_suffix (5.0.0)
     racc (1.6.0)
     rack (2.2.4)
     rack-capture (0.4.0)
@@ -66,27 +85,18 @@ GEM
     ruby2_keywords (0.0.5)
     stringio (3.0.2)
     thor (1.2.1)
-    tilt (2.0.10)
-    tzinfo (2.0.4)
+    tilt (2.0.11)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    weneedfeed (0.18.0)
-      activesupport
-      addressable
-      builder
-      faraday
-      faraday_middleware
-      hibana (>= 0.2)
-      marcel
-      nokogiri
-      psych (>= 4)
-      rack-capture (>= 0.4.0)
-      thor
+    webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
-  weneedfeed
+  webrick (~> 1.7)
+  weneedfeed!
 
 BUNDLED WITH
    2.3.15
