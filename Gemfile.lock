@@ -18,7 +18,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4)
+    activesupport (7.0.4.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -64,7 +64,7 @@ GEM
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     marcel (1.0.2)
-    minitest (5.16.3)
+    minitest (5.17.0)
     multipart-post (2.2.3)
     mustermann (1.1.2)
       ruby2_keywords (~> 0.0.1)
