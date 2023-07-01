@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
 
-# gem 'weneedfeed'
-gem 'weneedfeed', :git => 'https://github.com/r7kamura/weneedfeed.git'
+gem 'weneedfeed', "~> 0.20"
 gem "webrick", "~> 1.7"
