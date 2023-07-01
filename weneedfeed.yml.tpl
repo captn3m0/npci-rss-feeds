@@ -19,49 +19,49 @@ pages:
     id: rupay
     title: RuPay Circulars
     description: NPCI RuPay Circulars
-    url: "https://npci.org.in/what-we-do/rupay/circulars"
+    url: "https://www.npci.org.in/what-we-do/rupay/circulars"
   - <<: *selector
     id: nach
     title: NACH Circulars
     description: NPCI NACH Circulars
-    url: "https://npci.org.in/what-we-do/nach/circulars"
+    url: "https://www.npci.org.in/what-we-do/nach/circulars"
   - <<: *selector
     id: imps
     title: IMPS Circulars
     description: NPCI IMPS Circulars
-    url: "https://npci.org.in/what-we-do/imps/circular"
+    url: "https://www.npci.org.in/what-we-do/imps/circular"
   - <<: *selector
     id: netc
     title: NETC FASTag Circulars
     description: NPCI FASTag Circulars
-    url: "https://npci.org.in/what-we-do/netc-fastag/circulars"
+    url: "https://www.npci.org.in/what-we-do/netc-fastag/circulars"
   - <<: *selector
     id: "99"
     title: "*99# Circulars"
     description: "NPCI *99# Circulars"
-    url: "https://npci.org.in/what-we-do/99/circular"
+    url: "https://www.npci.org.in/what-we-do/99/circular"
   - <<: *selector
     id: nfs
     title: NFS Circulars
     description: "NPCI NFS Circulars"
-    url: "https://npci.org.in/what-we-do/nfs/circulars"
+    url: "https://www.npci.org.in/what-we-do/nfs/circulars"
   - <<: *selector
     id: aeps
     title: AePS Circulars
     description: "NPCI AePS Circulars"
-    url: "https://npci.org.in/what-we-do/aeps/circulars"
+    url: "https://www.npci.org.in/what-we-do/aeps/circulars"
   - <<: *selector
     id: bhim-aadhaar
     title: BHIM Aadhaar Circulars
     description: "NPCI BHIM Aadhaar Circulars"
-    url: "https://npci.org.in/what-we-do/bhim-aadhaar/circular"
+    url: "https://www.npci.org.in/what-we-do/bhim-aadhaar/circular"
   - <<: *selector
     id: e-rupi
     title: e-RUPI Circulars
     description: "NPCI e-RUPI Circulars"
-    url: "https://npci.org.in/what-we-do/e-rupi/circular"
+    url: "https://www.npci.org.in/what-we-do/e-rupi/circular"
   - <<: *selector
     id: bbps
     title: Bharat BillPay Circulars
     description: "NPCI Bharat BillPay (BBPS) Circulars"
-    url: "https://npci.org.in/what-we-do/bharat-billpay/circulars"
+    url: "https://www.npci.org.in/what-we-do/bharat-billpay/circulars"
