@@ -41,7 +41,7 @@ jobs:
           ruby-version: "3.0"
           bundler-cache: true
       - name: Generate RSS Feeds
-        run: bundle exec weneedfeed build --base-url="https://captnemo.in/npci-rss-feeds"
+        run: bundle exec ruby build.rb
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@64bcae551a7b18bcb9a09042ddf1960979799187 # v1.0.8
