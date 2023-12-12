@@ -50,11 +50,11 @@ pages:
     title: AePS Circulars
     description: "NPCI AePS Circulars"
     url: "https://www.npci.org.in/what-we-do/aeps/circulars"
-  - <<: *selector
-    id: bhim-aadhaar
-    title: BHIM Aadhaar Circulars
-    description: "NPCI BHIM Aadhaar Circulars"
-    url: "https://www.npci.org.in/what-we-do/bhim-aadhaar/circular"
+  # - <<: *selector
+  #   id: bhim-aadhaar
+  #   title: BHIM Aadhaar Circulars
+  #   description: "NPCI BHIM Aadhaar Circulars"
+  #   url: "https://www.npci.org.in/what-we-do/bhim-aadhaar/circular"
   - <<: *selector
     id: e-rupi
     title: e-RUPI Circulars
