@@ -54,12 +54,12 @@ GEM
     mustermann-contrib (1.1.2)
       hansi (~> 0.2.0)
       mustermann (= 1.1.2)
-    nokogiri (1.15.2-x86_64-linux)
+    nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.0)
       stringio
     public_suffix (5.0.1)
-    racc (1.7.1)
+    racc (1.7.3)
     rack (2.2.7)
     rack-capture (0.4.0)
       rack
