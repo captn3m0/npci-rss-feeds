@@ -60,7 +60,7 @@ GEM
       stringio
     public_suffix (5.0.1)
     racc (1.7.3)
-    rack (2.2.7)
+    rack (2.2.8.1)
     rack-capture (0.4.0)
       rack
     ruby2_keywords (0.0.5)
