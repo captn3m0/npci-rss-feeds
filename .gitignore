@@ -1,4 +1,3 @@
 public
-vendor
 output
-weneedfeed.yml
+.venv
