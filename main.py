@@ -133,14 +133,6 @@ def generate_index_html(config):
     html_content += '''        
       </ul>
     </section>
-    <section>
-      <header>
-        <h1>Others</h1>
-      </header>
-      <ul>
-        <li><a href="''' + base_url + '''opml.xml">OPML</a></li>
-      </ul>
-    </section>
   </body>
 </html>
 '''
